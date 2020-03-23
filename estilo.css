@@ -1,0 +1,58 @@
+html, body {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100%;
+}
+
+.conteudoBox p {
+  text-align: justify;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.conteudoBox {
+  font-size: 30px;
+}
+
+.margin-table {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.background_color-table{
+  background-color: white;
+}
+
+/* Define o width dos 'th' que tem informações referentes ao criador do site, ou seja: nome, idade e descrição simples */
+.width-th {
+  width: 480px;
+  font-size: 20px;
+}
+
+.redes_sociais {
+  width: 414px;
+}
+
+@media screen and (min-width: 720px) {
+  .foto_perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 480px;
+    border: solid blue 2px;
+  }
+}
+
+.credito_perfil{
+  width: 700px;
+}
+
+.icone-margin-top {
+  margin-top: 20px;
+}
+
+.icones-links {
+  margin-left: 1%;
+  margin-right: 21%;
+}
